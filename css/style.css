@@ -41,11 +41,11 @@ h3 {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav__link {
@@ -56,7 +56,7 @@ h3 {
   color: #2e2f42;
 }
 
-.nav__link:hover {
+.nav__link:hover, .nav__link:focus {
   color: #404bbf;
 }
 
@@ -69,7 +69,7 @@ h3 {
   font-style: normal;
 }
 
-.adress__link:hover {
+.adress__link:hover, .adress__link:focus {
   color: #404bbf;
 }
 
@@ -90,13 +90,18 @@ h3 {
 }
 
 .first__btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.first__btn:hover, .first__btn:focus {
+  background-color: #404BBF;
 }
 
 .second {
@@ -105,8 +110,34 @@ h3 {
   padding-bottom: 120px;
 }
 
+.second__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .third {
   background: #f4f4fd;
+}
+
+.third__text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.third__list {
+  background: #fff;
+}
+
+.fourth__text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 footer {
@@ -117,6 +148,9 @@ footer {
 }
 
 footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
@@ -127,9 +161,9 @@ footer p {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .logo-foot span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
