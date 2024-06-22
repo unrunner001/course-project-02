@@ -1,3 +1,135 @@
+
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.nav__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav__link:hover {
+  color: #404bbf;
+}
+
+.adress__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+.adress__link:hover {
+  color: #404bbf;
+}
+
+.first {
+  background-color: #2e2f42;
+  text-align: center;
+  height: 600px;
+  padding-top: 188px;
+}
+
+.first .title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+.first__btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.second {
+  height: 344px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.third {
+  background: #f4f4fd;
+}
+
+footer {
+  background: #2e2f42;
+  height: 312px;
+  padding-left: 156px;
+  padding-top: 100px;
+}
+
+footer p {
+  color: #f4f4fd;
+}
+
+.logo-foot {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.logo-foot span {
+  color: #4d5ae5;
 }
