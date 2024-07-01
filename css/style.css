@@ -1,4 +1,3 @@
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
@@ -56,7 +55,8 @@ h3 {
   color: #2e2f42;
 }
 
-.nav__link:hover, .nav__link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: #404bbf;
 }
 
@@ -69,7 +69,8 @@ h3 {
   font-style: normal;
 }
 
-.adress__link:hover, .adress__link:focus {
+.adress__link:hover,
+.adress__link:focus {
   color: #404bbf;
 }
 
@@ -78,6 +79,7 @@ h3 {
   text-align: center;
   height: 600px;
   padding-top: 188px;
+  box-sizing: border-box;
 }
 
 .first .title {
@@ -87,6 +89,9 @@ h3 {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  width: 496px;
+  height: 120px;
+  margin: 0 auto;
 }
 
 .first__btn {
@@ -98,10 +103,12 @@ h3 {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin-top: 48px;
 }
 
-.first__btn:hover, .first__btn:focus {
-  background-color: #404BBF;
+.first__btn:hover,
+.first__btn:focus {
+  background-color: #404bbf;
 }
 
 .second {
